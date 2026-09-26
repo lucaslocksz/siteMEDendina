@@ -1,0 +1,173 @@
+* {
+    font-family: "Urbanist", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    font-family: "League Spartan", sans-serif;
+}
+
+header {
+    background-color: #800606c5;
+    color: rgb(250, 244, 244);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 20%;
+    max-width: 100px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    margin: 0 5%;
+    padding: 10px;
+}
+
+p {
+    font-size: 110%;
+    text-align: justify;
+    margin: 0;
+    text-indent: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header a {
+    font-size: 90%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+#sobre {
+    margin: 5%;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#Slogan {
+    font-size: 80%;
+    margin: 0;
+    margin-top: 0;
+}
+
+h3 {
+    color: #800606c5;
+}
+
+#temas {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* CONTATOS */
+
+#contatos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+#redes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rede {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+}
+
+.rede img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.rede p {
+    margin: 0;
+    text-indent: 0;
+}
+
+#imagem-contato {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+    margin: 0;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    header ul {
+        align-items: center;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #redes a {
+        text-decoration: none;
+        color: #800606c5;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
