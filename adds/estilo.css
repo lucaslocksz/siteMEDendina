@@ -119,7 +119,7 @@ h3 {
     margin: 0;
     text-indent: 0;
 }
-.redes a {
+#redes a {
         text-decoration: none;
         color: #800606c5;
         display: flex;
